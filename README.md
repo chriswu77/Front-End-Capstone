@@ -1,1 +1,1 @@
-# Front-End-Capstone
+# Project Catwalk (Front End)
