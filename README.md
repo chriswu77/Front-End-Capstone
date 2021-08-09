@@ -16,7 +16,7 @@ The application consists of 4 sections:
 - Questions & Answers
 - Related Items & Outfit Creation
 
-![](/front-end-gif.gif)
+![](demo.gif)
 
 ## Where can you find the work I did? <a name="where"/>
 My contribution can be found at the file paths `/client/src/Overview.jsx` & `/client/src/overview_components`
