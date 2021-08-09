@@ -237,7 +237,7 @@ class App extends React.Component {
         <Container fluid className="main-container">
           <Row>
             <button type="button" className="header-button" onClick={() => this.handleRelatedClick(homeItem)}>
-              <div className="app-header">Project Catwalk</div>
+              <div className="app-header">LA Apparel</div>
             </button>
           </Row>
         </Container>

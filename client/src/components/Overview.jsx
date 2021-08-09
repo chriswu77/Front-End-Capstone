@@ -10,7 +10,6 @@ const Overview = (props) => {
     currentItem,
     rating,
     reviewsCount,
-    cart,
     addToCart,
     appStyles,
     defaultStyle,
