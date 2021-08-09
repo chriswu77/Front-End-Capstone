@@ -1,4 +1,4 @@
-# Project Catwalk (Front End)
+# LA Apparel (Front End)
 
 ## Table of contents
 1. [Motivation](#motivation)
@@ -6,9 +6,8 @@
 3. [Technologies used](#tech)
 4. [Usage](#usage)
 
-
 ## Motivation <a name="motivation"/>
-Project Catwalk is a retail e-commerce web app built by a team of 4 engineers and designed from a given set of business requirements.
+LA Apparel is a retail e-commerce web app built by a team of 4 engineers and designed from a given set of business requirements.
 
 The application consists of 4 sections:
 - **Product Detail (My contribution)**
