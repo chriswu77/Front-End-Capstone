@@ -19,10 +19,9 @@ export default class SizeDropDown extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    const { options, active } = this.state;
+    const { active } = this.state;
     const {
       currentStyle,
-      size,
       setSize,
       showAlert,
       setShowCartBtn,
@@ -89,7 +88,7 @@ export default class SizeDropDown extends Component {
 
   render() {
     const { options, active, menuIsOpen } = this.state;
-    const { currentStyle, size } = this.props;
+    const { size } = this.props;
 
     const customStyles = {
       dropdownIndicator: (provided, state) => ({
@@ -105,7 +104,7 @@ export default class SizeDropDown extends Component {
       selectComponent = (
         <Select
           value={size ? { label: size, value: size } : null}
-          placeholder={'SELECT SIZE'}
+          placeholder="SELECT SIZE"
           ref={this.selectRef}
           options={options}
           onFocus={this.openMenu}
@@ -120,7 +119,7 @@ export default class SizeDropDown extends Component {
       selectComponent = (
         <Select
           value={size ? { label: size, value: size } : null}
-          placeholder={'OUT OF STOCK'}
+          placeholder="OUT OF STOCK"
           ref={this.selectRef}
           isDisabled
         />

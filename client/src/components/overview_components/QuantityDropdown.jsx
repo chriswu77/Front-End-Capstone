@@ -16,8 +16,6 @@ const QuantityDropdown = (props) => {
       findQuantity();
       setQuantity(1);
     } else {
-      // when currentStyle changes, size gets set to null in SizeDropdown.jsx
-      // when size is null, we want quantity to be null too
       setQuantity(null);
       setLimitedQuantity(null);
     }
@@ -75,7 +73,7 @@ const QuantityDropdown = (props) => {
     dropdown = (
       <Select
         value={quantity ? { label: quantity, value: quantity } : null}
-        placeholder={'-'}
+        placeholder="-"
         isDisabled
       />
     );

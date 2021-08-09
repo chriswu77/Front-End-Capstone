@@ -18,7 +18,7 @@ const ShareButtons = (props) => {
       <Col className="d-flex justify-content-center">
         <FacebookShareButton
           quote={currentProduct.name}
-          url={'facebook.com'}
+          url="facebook.com"
         >
           <FacebookIcon size={32} round />
         </FacebookShareButton>
@@ -26,7 +26,7 @@ const ShareButtons = (props) => {
       <Col className="d-flex justify-content-center">
         <TwitterShareButton
           title={currentProduct.name}
-          url={'twitter.com'}
+          url="twitter.com"
         >
           <TwitterIcon size={32} round />
         </TwitterShareButton>
@@ -34,7 +34,7 @@ const ShareButtons = (props) => {
       <Col className="d-flex justify-content-center">
         <PinterestShareButton
           media={currentStyle.photos[0].url}
-          url={'pinterest.com'}
+          url="pinterest.com"
           description={currentProduct.name}
         >
           <PinterestIcon size={32} round />

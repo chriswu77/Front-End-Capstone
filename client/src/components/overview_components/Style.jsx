@@ -11,7 +11,7 @@ const Style = (props) => {
 
   let thumbnail;
   if (style.photos[0].thumbnail_url === null) {
-    thumbnail = <img className="thumbnail-none" src={'no-photo.png'} alt={style.name} />;
+    thumbnail = <img className="thumbnail-none" src="no-photo.png" alt={style.name} />;
   } else {
     thumbnail = <img className="thumbnail-img" src={style.photos[0].thumbnail_url} alt={style.name} />;
   }

@@ -124,7 +124,7 @@ const ExpandedView = (props) => {
     <Modal
       show={showModal}
       onHide={() => setShowModal(false)}
-      size={'lg'}
+      size="lg"
       centered
     >
       <Modal.Header closeButton />

@@ -30,7 +30,7 @@ const DefaultView = (props) => {
         <Swiper
           spaceBetween={15}
           slidesPerView={7}
-          direction={'vertical'}
+          direction="vertical"
           onSwiper={setThumbsSwiper}
           navigation={{
             nextEl: '.down-btn',
