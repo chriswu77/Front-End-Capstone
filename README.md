@@ -14,4 +14,4 @@ The application consists of 4 sections:
 - Questions & Answers
 - Related Items & Outfit Creation
 
-
+![](front-end-gif.gif)
